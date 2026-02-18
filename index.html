@@ -174,9 +174,12 @@
     </div>
   </div>
 
-  <footer>
+    <footer>
     <p>© 2026 SISTEM-PRO. Заборы и Ворота на Юге России.</p>
-  </footer>
+    
+    <!-- Вставляем визуальную часть виджета прямо сюда -->
+    <a class="flamp-widget" href="//rostov.flamp.ru/firm/tandem_stroitelnaya_kompaniya-70000001087601526" data-flamp-widget-type="medium-new" data-flamp-widget-id="70000001087601526">Отзывы о нас на Флампе</a>
+  </footer> <!-- Это закрывающий тег футера -->
 
   <script>
     function moveSlider(btn, direction) {
@@ -185,6 +188,9 @@
       slider.scrollBy({ left: direction * scrollAmount, behavior: 'smooth' });
     }
   </script>
+
+  <!-- А основной технический скрипт ставим перед самым концом -->
+  <script>!function(d,s){var js,fjs=d.getElementsByTagName(s)[0];js=d.createElement(s);js.async=1;js.src="//widget.flamp.ru/loader.js";fjs.parentNode.insertBefore(js,fjs);}(document,"script");</script>
 
 </body>
 </html>
